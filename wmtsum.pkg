@@ -1,0 +1,9 @@
+v 1.0.0
+d 'WMTSUM': wmtsum
+d 
+d output summary statistics to Word, LaTeX, Stata interface.
+d 
+d Distribution-Date:   20200427
+d License: MIT
+d 
+F wmtsum.ado

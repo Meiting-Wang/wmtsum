@@ -1,0 +1,8 @@
+v 1.0.0
+d Materials by Meiting-Wang
+d School of Economics, South-Central University for Nationalities
+d 2017110097@mail.scuec.edu.cn
+
+d 'wmtsum': output summary statistics to Word, LaTeX, Stata interface.
+
+p wmtsum
