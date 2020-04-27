@@ -1,7 +1,7 @@
 * Feather: output summary statistics to Stata interface, Word and LaTeX
 * Author: Meiting Wang, Master, School of Economics, South-Central University for Nationalities
 * Email: 2017110097@mail.scuec.edu.cn
-* Created on Oct 23th, 201999
+* Created on Oct 23th, 2019999
 
 
 program define wmtsum
