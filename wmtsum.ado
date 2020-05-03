@@ -8,7 +8,7 @@ program define wmtsum
 version 15.1
 
 syntax [varlist(numeric default=none)] [if] [in] [aw fw/] [using/] [, ///
-	replace append Statistics(string) TItle(string) Alignment(string) PAGE(string)]
+	replace append Statistics(string) TItle(string) Alignment(string) Page(string)]
 /*
 optional illustration:
 1. varlist: only numeric variable names permitted.
@@ -36,6 +36,11 @@ local others_default_la_fmt "%11.3fc"
 *默认下会输出的统计量(界面、Word、LaTeX)
 if "`statistics'" == "" {
 	local statistics "N mean sd min max"
+}
+
+*默认下LaTeX输出的列格式
+if "`alignment'" == "" {
+	local alignment "math"
 }
 
 
