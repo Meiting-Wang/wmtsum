@@ -38,11 +38,6 @@ if "`statistics'" == "" {
 	local statistics "N mean sd min max"
 }
 
-*默认下LaTeX输出的列格式
-if "`alignment'" == "" {
-	local alignment "math"
-}
-
 
 *--------输入选项不合规的报错信息-------
 if ("`replace'`append'"!="")&("`using'"=="") {
@@ -158,9 +153,14 @@ local st = ustrtrim("`st'")
 local stl = ustrtrim("`stl'")
 
 *构建esttab中alignment()和page()内部的语句(LaTeX输出专属)
+if "`alignment'" == "" {
+	local alignment "math"
+} //默认下LaTeX输出的列格式
+
 if "`page'" != "" {
 	local page ",`page'"
 }
+
 if "`alignment'" == "math" {
 	local page "array`page'"
 	local alignment "*{`stat_num'}{>{$}c<{$}}"
