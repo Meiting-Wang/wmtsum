@@ -8,7 +8,7 @@
 
 自从我的推文[Stata：毕业论文大礼包 C——新版 esttab](https://mp.weixin.qq.com/s/wX4_v6HjAoh6l42W4Yn3tA)在连享会发布之后，不少同学发邮件给我说是无法下载命令，以及没有帮助文件，在此感谢各位同学们的关注和建议。基于此，这篇文章以及后续的文章将解决以上问题。
 
-在此需要说明的是，这些命令之后将全程由我本人托管。本文以及后续的文章命令的名称将会有所变化，分别为：`lxhsum`对应`wmtsum`；`lxhttest`对应`wmttest`；`lxhcorr`对应`wmtcorr`；`lxhreg`对应`wmtreg`；`lxhmat`对应`wmtmat`。在此感谢中山大学连玉君老师对于我书写的这些命令的认可。
+在此需要说明的是，这些命令之后将全程由我本人托管。本文以及后续的文章命令的名称将会有所变化，分别为：`lxhsum`对应`wmtsum`；`lxhttest`对应`wmttest`；`lxhcorr`对应`wmtcorr`；`lxhreg`对应`wmtreg`；`lxhmat`对应`wmtmat`。在此感谢中山大学连玉君老师对于这些命令的认可。
 
 为了文章的简洁性，我将按照一个命令一篇文章的形式进行阐述，这篇文章所涉及到的命令为`wmtsum`，后续命令`wmttest`、`wmtcorr`、`wmtreg`和`wmtmat`也会逐渐推出。在这之后，`matmh`命令也会被正式推出。目前计划大体是这样。
 
