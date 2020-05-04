@@ -18,7 +18,7 @@ where the subcommands can be :
 {p2col :{it:subcommand}}Description{p_end}
 {p2line}
 {p2col :{help varlist}}a list of numeric variables, all numeric variables as the defaut{p_end}
-{p2col :{help weight}}can choose one of fweight and aweight, empty as the default{p_end}
+{p2col :{help weight}}can choose one of {bf:fweight} and {bf:aweight}, empty as the default{p_end}
 {p2col :{help using}}output the result to Word with .rtf file or LaTeX with .tex file{p_end}
 {p2line}
 {p2colreset}{...}
