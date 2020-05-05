@@ -139,5 +139,3 @@ wmtsum price rep78 foreign weight using Myfile.tex, replace a(dot)
 ![](https://imgkr.cn-bj.ufileos.com/f5aba08f-691a-4260-9fcb-46773a793e67.png)
 
 > 如前文所述，在将结果输出 Word 或 LaTeX 时，Stata 界面上也会呈现对应的结果，以方便查看。
-
-> 点击左下角可查看最新版的原文。
