@@ -30,7 +30,7 @@
 
 ## 二、为何要使用`wmtxxx`命令
 
-现有很多相关的输出命令，但或许多多少少不让我们满意，有些只能输出到Word而无法输出到Stata界面和LaTeX，而有些甚至在格式上还需自己后续手动调整（如多出的额外的空行，表格内容的错位）。而**`esttab`由于其功能的完整性，支持描述性统计、分组T均值检验、相关系数矩阵、回归结果以及矩阵在Stata界面、Word和LaTeX的输出**，堪称完美，但是由于其语句的复杂性让很多同学望而却步。基于此，个人根据`esttab`内核，编写了语法更加简洁的`wmtxxx`系列命令，以尽量使得大家能在更短的语句中，实现`esttab`全面的功能。
+现有很多相关的输出命令，但或许多多少少不让我们满意，有些只能输出到Word而无法输出到Stata界面和LaTeX，而有些甚至在格式上还需自己后续手动调整（如多出的额外的空行，表格内容的错位）。**而`esttab`由于其功能的完整性，支持描述性统计、分组T均值检验、相关系数矩阵、回归结果以及矩阵在Stata界面、Word和LaTeX的输出**，堪称完美，但是由于其语句的复杂性让很多同学望而却步。基于此，个人根据`esttab`内核，编写了语法更加简洁的`wmtxxx`系列命令，以尽量使得大家能在更短的语句中，实现`esttab`全面的功能。
 
 本文主要阐述的`wmtsum`命令，和后期将推出`wmttest`、`wmtcorr`、`wmtreg`和`wmtmat`命令，都可以通过`append`选项将结果输出到一个Word或LaTeX文件（无需手动修改，可直接编译）中，将大幅度节省工作量。
 
@@ -66,9 +66,9 @@ github search wmtsum
 wmtsum [varlist] [if] [in] [weight] [using filename] [, options]
 ```
 
-> - varlist: 仅可输出数值型变量，若为空，则自动导入所有数值型变量。
-> - weight: 可以选择fweight或aweight，默认为空。
-> - using: 可以将结果输出至 Word（ .rtf 文件）和 LaTeX（ .tex 文件）中。
+> - `varlist`: 仅可输出数值型变量，若为空，则自动导入所有数值型变量。
+> - `weight`: 可以选择fweight或aweight，默认为空。
+> - `using`: 可以将结果输出至 Word（ .rtf 文件）和 LaTeX（ .tex 文件）中。
 
 **选项（options）**：
 - 一般选项
@@ -98,7 +98,7 @@ wmtsum price rep78 foreign weight using Myfile.tex, replace a(dot) //设置LaTeX
 ```
 
 > 以上所有实例都可以在`help wmtsum`中直接运行。
-> ![image](https://user-images.githubusercontent.com/42256486/81039260-1c2e4d80-8edb-11ea-83bd-61d304f58b53.png)
+> ![](https://user-images.githubusercontent.com/42256486/81039260-1c2e4d80-8edb-11ea-83bd-61d304f58b53.png)
 
 
 ## 六、输出效果展示
@@ -127,7 +127,7 @@ weight            74  3019.459   777.194  1760.000  4840.000
 wmtsum price rep78 foreign weight using Myfile.rtf, replace
 ```
 
-![image](https://user-images.githubusercontent.com/42256486/81039394-7a5b3080-8edb-11ea-9af4-a92b940f4c33.png)
+![](https://user-images.githubusercontent.com/42256486/81039394-7a5b3080-8edb-11ea-9af4-a92b940f4c33.png)
 
 - **LaTeX**
 
@@ -135,12 +135,12 @@ wmtsum price rep78 foreign weight using Myfile.rtf, replace
 wmtsum price rep78 foreign weight using Myfile.tex, replace
 ```
 
-![image](https://user-images.githubusercontent.com/42256486/81039467-ae365600-8edb-11ea-9667-12b4bb08abcb.png)
+![](https://user-images.githubusercontent.com/42256486/81039467-ae365600-8edb-11ea-9667-12b4bb08abcb.png)
 
 ```stata
 wmtsum price rep78 foreign weight using Myfile.tex, replace a(dot)
 ```
 
-![image](https://user-images.githubusercontent.com/42256486/81039862-ac20c700-8edc-11ea-8d7d-561b328b6479.png)
+![](https://user-images.githubusercontent.com/42256486/81039862-ac20c700-8edc-11ea-8d7d-561b328b6479.png)
 
 > 如前文所述，在将结果输出Word或LaTeX时，Stata界面上也会呈现对应的结果，以方便查看。
