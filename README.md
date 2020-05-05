@@ -73,8 +73,14 @@ wmtsum [varlist] [if] [in] [weight] [using filename] [, options]
 
 **选项（options）**：
 
-- 一般选项 - `statistics()`：括号中可输入：`N mean sd min median max p1 p5 p10 p25 p75 p90 p95 p99`。默认为：`N mean sd min max`。当然，我们还可以为每一个统计量设定不同的数值格式，如：`N(%11.0f) mean(%11.3f) sd(%11.3f) min(%11.3f) max(%11.3f)`。 - `title()`：设置表格标题，默认为：`Summary statistics`。 - `replace`：将结果输出至 Word 或 LaTeX 时，替换现有的文件（若文件已存在） - `append`：将结果输出至 Word 或 LaTeX 时，附加在现在的文件中（若文件已存在）
-- LaTeX 专有选项 - `alignment()`：设置 LaTeX 表格的列对齐格式，可输入`math`或`dot`，`math`设置列格式为居中对齐的数学格式（自动添加宏包`booktabs`和`array`），`dot`表示小数点对齐的数学格式（自动添加宏包`booktabs`、`array`和`dcolumn`）。默认为`math`。 - `page()`：可添加额外用户需要的宏包。
+- 一般选项 
+	- `statistics()`：括号中可输入：`N mean sd min median max p1 p5 p10 p25 p75 p90 p95 p99`。默认为：`N mean sd min max`。当然，我们还可以为每一个统计量设定不同的数值格式，如：`N(%11.0f) mean(%11.3f) sd(%11.3f) min(%11.3f) max(%11.3f)`。
+	- `title()`：设置表格标题，默认为：`Summary statistics`。 
+	- `replace`：将结果输出至 Word 或 LaTeX 时，替换现有的文件（若文件已存在）。 
+	- `append`：将结果输出至 Word 或 LaTeX 时，附加在现在的文件中（若文件已存在）。
+- LaTeX 专有选项 
+	- `alignment()`：设置 LaTeX 表格的列对齐格式，可输入`math`或`dot`，`math`设置列格式为居中对齐的数学格式（自动添加宏包`booktabs`和`array`），`dot`表示小数点对齐的数学格式（自动添加宏包`booktabs`、`array`和`dcolumn`）。默认为`math`。 
+	- `page()`：可添加额外用户需要的宏包。
 
 > 以上选项大部分都可以缩写，如`statistics()`可以缩写为`s()`，详情可以`help wmtsum`。
 
