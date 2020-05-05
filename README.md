@@ -19,7 +19,7 @@
 
 ## 一、引言
 
-自从我的推文 [Stata：毕业论文大礼包 C——新版 esttab](https://mp.weixin.qq.com/s/wX4_v6HjAoh6l42W4Yn3tA) 在连享会发布之后，不少同学发邮件给我说是无法下载命令，以及没有帮助文件。基于此，我花了很多心血，书写了对应命令的帮助文件，并将代码托管于 GitHub 中，简化了命令安装流程（参见下文）。
+自从我的推文 [Stata：毕业论文大礼包 C——新版 esttab](https://mp.weixin.qq.com/s/wX4_v6HjAoh6l42W4Yn3tA) 在连享会发布之后，不少老师和同学发邮件给我表达了无法下载命令，以及没有帮助文件的问题。基于此，我花了很多心血，书写了对应命令的帮助文件，以及将代码托管于 GitHub 中，简化了命令安装流程（参见下文）。在此感谢各位老师和同学的支持与建议。
 
 在此需要说明的是，这些命令之后将由我本人全程托管。本文以及后续文章命令的名称将会有所变化，分别为：`wmtsum`对应`lxhsum`；`wmttest`对应`lxhttest`；`wmtcorr`对应`lxhcorr`；`wmtreg`对应`lxhreg`；`wmtmat`对应`lxhmat`。在此感谢中山大学连玉君老师对于这些命令的认可。
 
@@ -139,3 +139,5 @@ wmtsum price rep78 foreign weight using Myfile.tex, replace a(dot)
 ![](https://imgkr.cn-bj.ufileos.com/f5aba08f-691a-4260-9fcb-46773a793e67.png)
 
 > 如前文所述，在将结果输出 Word 或 LaTeX 时，Stata 界面上也会呈现对应的结果，以方便查看。
+
+> 点击左下角可查看最新版的原文。
