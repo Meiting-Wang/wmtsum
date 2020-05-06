@@ -8,7 +8,7 @@ program define wmtsum
 version 15.1
 
 syntax [varlist(numeric default=none)] [if] [in] [aw fw/] [using/] [, ///
-	replace append Statistics(string) TItle(string) Alignment(string) Page(string)]
+	replace append Statistics(string) TItle(string) Alignment(string) PAGE(string)]
 
 
 *--------设置默认格式------------
