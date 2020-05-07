@@ -1,4 +1,4 @@
-* Feather: output summary statistics to Stata interface, Word and LaTeX
+* Description: output summary statistics to Stata interface, Word and LaTeX
 * Author: Meiting Wang, Master, School of Economics, South-Central University for Nationalities
 * Email: wangmeiting92@gmail.com
 * Created on May 4th, 2020
