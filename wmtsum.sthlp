@@ -39,7 +39,7 @@ where the subcommands can be :
 {marker Description}{title:Description}
 
 {p 4 4 2}
-{bf:wmtsum}, based on esttab, can output summary statistics to  Stata interface, Word as well as LaTeX. User can use this command easily due to its simple syntax. It is worth noting that this command can only be used in version 15.1 or later.
+{bf:wmtsum}, based on esttab, can output summary statistics to Stata interface, Word as well as LaTeX. User can use this command easily due to its simple syntax. It is worth noting that this command can only be used in version 15.1 or later.
 
 {p 4 4 2}
 Users can also append the output from {bf:wmtsum} to other word or LaTeX document,
