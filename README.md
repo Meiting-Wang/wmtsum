@@ -67,7 +67,7 @@ github search wmtsum
 wmtsum [varlist] [if] [in] [weight] [using filename] [, options]
 ```
 
-> - `varlist`: 仅可输出数值型变量，若为空，则自动导入所有数值型变量。
+> - `varlist`: 仅可输入数值型变量，若为空，则自动导入所有数值型变量。
 > - `weight`: 可以选择 fweight 或 aweight，默认为空。
 > - `using`: 可以将结果输出至 Word（ .rtf 文件）和 LaTeX（ .tex 文件）中。
 
