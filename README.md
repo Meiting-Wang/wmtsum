@@ -99,7 +99,7 @@ wmtsum price rep78 foreign weight using Myfile.tex, replace a(dot) //设置LaTeX
 ```
 
 > 以上所有实例都可以在`help wmtsum`中直接运行。
-> ![](https://imgkr.cn-bj.ufileos.com/1d195945-92be-427d-8c92-2dc4a0f5ab9c.png)
+> ![image](https://user-images.githubusercontent.com/42256486/81492043-4448f280-92c7-11ea-96b7-fbc41587d00e.png)
 
 
 ## 六、输出效果展示
@@ -128,20 +128,19 @@ weight            74  3019.459   777.194  1760.000  4840.000
 wmtsum price rep78 foreign weight using Myfile.rtf, replace
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/70459b80-44b2-40d1-86f2-b230f33333d0.png)
+![image](https://user-images.githubusercontent.com/42256486/81492060-693d6580-92c7-11ea-9a14-d27d48ec6ae3.png)
 
 - **LaTeX**
 
 ```stata
 wmtsum price rep78 foreign weight using Myfile.tex, replace
 ```
-
-![](https://imgkr.cn-bj.ufileos.com/0f65470a-f462-41ec-9853-8fdeb53c4877.png)
+![image](https://user-images.githubusercontent.com/42256486/81492066-722e3700-92c7-11ea-9830-c9ab13659b64.png)
 
 ```stata
 wmtsum price rep78 foreign weight using Myfile.tex, replace a(dot)
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/f5aba08f-691a-4260-9fcb-46773a793e67.png)
+![image](https://user-images.githubusercontent.com/42256486/81492067-765a5480-92c7-11ea-91ea-bd3dba071600.png)
 
 > 如前文所述，在将结果输出 Word 或 LaTeX 时，Stata 界面上也会呈现对应的结果，以方便查看。
