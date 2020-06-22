@@ -176,6 +176,7 @@ else {
 
 
 *-------------------------------主程序------------------------------------
+ereturn clear
 qui estpost summarize `varlist' `if' `in' `weight', detail
 esttab, cells("`st'") compress ///
 	noobs nomti nonum title(`title') //Stata 界面显示 
