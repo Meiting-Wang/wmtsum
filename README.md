@@ -3,6 +3,10 @@
 > 作者：王美庭  
 > Email: wangmeiting92@gmail.com
 
+## 更新记录
+
+- 2020年6月23日：消除了eststo对输出结果的影响
+
 ## 摘要
 
 本文主要介绍了个人编写的可将描述性统计结果输出至 Stata 界面、Word 以及 LaTeX 的`wmtsum`命令。
