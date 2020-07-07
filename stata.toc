@@ -1,8 +1,7 @@
 v 1.0.3
-d Materials by Meiting Wang
-d South-Central University for Nationalities
+d Meiting Wang
+d Institute for Economic and Social Research, Jinan University
+d Guangzhou, China
 d wangmeiting92@gmail.com
 
-d 'wmtsum': output summary statistics to Stata interface, Word as well as LaTeX
-
-p wmtsum
+p wmtsum - output summary statistics to Stata interface, Word as well as LaTeX

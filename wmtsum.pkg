@@ -1,10 +1,9 @@
 v 1.0.3
-d 'WMTSUM': wmtsum
-d 
-d output summary statistics to Stata interface, Word as well as LaTeX
-d 
-d Distribution-Date:   20200504
-d License: MIT
-d 
-F wmtsum.ado
-F wmtsum.sthlp
+d wmtsum. Output summary statistics to Stata interface, Word as well as LaTeX
+d Meiting Wang
+d Institute for Economic and Social Research, Jinan University
+d Guangzhou, China
+d wangmeiting92@gmail.com
+
+f wmtsum.ado
+f wmtsum.sthlp
