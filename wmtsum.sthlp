@@ -1,5 +1,5 @@
 {smcl}
-{right:Updated time: May 4, 2020}
+{right:Updated time: July 7, 2020}
 {* -----------------------------title------------------------------------ *}{...}
 {p 0 16 2}
 {bf:[W-1] wmtsum} {hline 2} output summary statistics to Stata interface, Word as well as LaTeX. The source code can be gained in {browse "https://github.com/Meiting-Wang/wmtsum":github}.
