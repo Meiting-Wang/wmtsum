@@ -1,5 +1,5 @@
 * Description: output summary statistics to Stata interface, Word and LaTeX
-* Author: Meiting Wang, Master, School of Economics, South-Central University for Nationalities
+* Author: Meiting Wang, doctor, Institute for Economic and Social Research, Jinan University
 * Email: wangmeiting92@gmail.com
 * Created on May 4, 2020
 
