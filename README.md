@@ -1,5 +1,4 @@
 # Stata 新命令：wmtsum——描述性统计表格的输出
-haha
 
 > 作者：王美庭  
 > Email: wangmeiting92@gmail.com
